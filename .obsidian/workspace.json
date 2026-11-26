@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "4c38b342945fa9f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "87ce184165fd3c3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9be516f1add48090",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Sin título.canvas",
+                "viewState": {
+                  "x": 57.99999999999997,
+                  "y": -89.2015493090691,
+                  "zoom": -1
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Sin título"
+            }
+          },
+          {
+            "id": "7abb08dae73bb770",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos CPT/ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO"
+            }
+          },
+          {
+            "id": "11bf05b37cf1caae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos CPT/LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT"
+            }
+          },
+          {
+            "id": "0d5fe473c127510e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comandos CPT/CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26e45b018cfa7df3",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b53b473af951a81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae244ca03abbcb4c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "a80044b44bb94d86",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#n",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "e8bbf740a51d695d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2002644cbc9a2fac",
+    "type": "split",
+    "children": [
+      {
+        "id": "64f37462a30847b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3102c19d64d09bc9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bienvenido.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "39d75e524c50526a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bienvenido.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "fec2879888168d4e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "fac7f34004964c38",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "6c961be09b7ab8b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bienvenido.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "start-page:Open start page": false
+    }
+  },
+  "active": "ae244ca03abbcb4c",
+  "lastOpenFiles": [
+    "Practicas Resueltas",
+    "Comandos CPT/SEGURIDAD DE PUERTOS (PORT-SECURITY).md",
+    "Sin título.canvas",
+    "Comandos CPT/SEGURIDAD DE ACCESO Y SSH.md",
+    "Comandos CPT/REDES DE ÁREA LOCAL VIRTUALES (VLAN) Y ENLACES TRONCALES.md",
+    "Comandos CPT/LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT.md",
+    "Comandos CPT/ENRUTAMIENTO E INTER-VLAN ROUTING.md",
+    "Comandos CPT/DIAGNÓSTICO, VERIFICACIÓN Y MONITOREO.md",
+    "Comandos CPT/CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL).md",
+    "Comandos CPT/ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO.md",
+    "Bienvenido.md",
+    "comandos_de_redes_cisco.md",
+    "Comandos CPT",
+    "comandos_de_redes_cisco.txt",
+    "2026-11-26.md",
+    "Topologia basica"
+  ]
+}

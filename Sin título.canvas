@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"1b6552d463b8f6ee","x":-1040,"y":-868,"width":400,"height":400,"type":"file","file":"Comandos CPT/REDES DE ÁREA LOCAL VIRTUALES (VLAN) Y ENLACES TRONCALES.md"},
+		{"id":"74647ade40514270","x":-580,"y":-868,"width":400,"height":400,"type":"file","file":"Comandos CPT/ENRUTAMIENTO E INTER-VLAN ROUTING.md"},
+		{"id":"6a7bf31aae1e79a5","x":-1040,"y":-360,"width":400,"height":400,"type":"file","file":"Comandos CPT/SEGURIDAD DE ACCESO Y SSH.md"},
+		{"id":"c0efe023b238d5cb","x":-580,"y":-360,"width":400,"height":400,"type":"file","file":"Comandos CPT/ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO.md"},
+		{"id":"3208213df426195b","x":-120,"y":-360,"width":400,"height":400,"type":"file","file":"Comandos CPT/LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT.md"},
+		{"id":"19a4cb20aa9ebf3a","x":-120,"y":-868,"width":400,"height":400,"type":"file","file":"Comandos CPT/DIAGNÓSTICO, VERIFICACIÓN Y MONITOREO.md"},
+		{"id":"7cba23a33d80d3c3","x":360,"y":-876,"width":400,"height":408,"type":"file","file":"Comandos CPT/CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL).md"},
+		{"id":"4bcd98b05db7ccbc","x":360,"y":-360,"width":400,"height":400,"type":"file","file":"Comandos CPT/SEGURIDAD DE PUERTOS (PORT-SECURITY).md"}
+	],
+	"edges":[]
+}
