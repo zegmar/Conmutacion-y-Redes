@@ -11,17 +11,14 @@
             "id": "9be516f1add48090",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sin título.canvas",
-                "viewState": {
-                  "x": 57.99999999999997,
-                  "y": -89.2015493090691,
-                  "zoom": -1
-                }
+                "file": "Topologia basica/SW2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sin título"
+              "icon": "lucide-file",
+              "title": "SW2"
             }
           },
           {
@@ -234,11 +231,16 @@
       "start-page:Open start page": false
     }
   },
-  "active": "ae244ca03abbcb4c",
+  "active": "9be516f1add48090",
   "lastOpenFiles": [
+    "Topologia basica/Practica 1 Configuracion Basica.pkt",
+    "Topologia basica/SW1.md",
+    "Topologia basica/Apoyo Visual.canvas",
+    "Topologia basica/SW2.md",
+    "README.md",
+    "Sin título.canvas",
     "Practicas Resueltas",
     "Comandos CPT/SEGURIDAD DE PUERTOS (PORT-SECURITY).md",
-    "Sin título.canvas",
     "Comandos CPT/SEGURIDAD DE ACCESO Y SSH.md",
     "Comandos CPT/REDES DE ÁREA LOCAL VIRTUALES (VLAN) Y ENLACES TRONCALES.md",
     "Comandos CPT/LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT.md",
