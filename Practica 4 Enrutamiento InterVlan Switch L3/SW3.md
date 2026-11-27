@@ -2,7 +2,7 @@
 
 Se aplicaron las [[Configuración Básica | Configuraciones Básicas]]
 
-Se Realizo la [[VLAN || Configuración de Vlan's ]] y de [[Enlace Troncal || Enlaces Troncales]]
+Se Realizo la [[VLAN y Seguridad de puertos|| Configuración de Vlan's ]] y de [[Enlace Troncal || Enlaces Troncales]]
 
 Datos Utilizados: 
 - **Hostname:** SW3

@@ -1,8 +1,8 @@
-#ConfiguracionPractica4 
+#ConfiguracionPractica5 
 
 Se aplicaron las [[Configuración Básica | Configuraciones Básicas]]
 
-Se Realizo la [[VLAN || Configuración de Vlan's ]] y se configuro como [[Configurar como capa 3 || Switch de capa 3]] 
+Se Realizo la [[VLAN y Seguridad de puertos|| Configuración de Vlan's ]] y se configuro como [[Configurar como capa 3 || Switch de capa 3]] 
 
 Datos Utilizados: 
 - **Hostname:** SWL3-1

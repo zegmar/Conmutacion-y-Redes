@@ -1,11 +1,19 @@
-SW3(config)#interface port-channel ***NumeroDeChannel***
+channel-group [número] mode active
 
-SW3(config-if)#switchport mode trunk
+Agrupar los puertos en un EtherChannel con LACP activo.
 
-SW3(config-if)#switchport trunk native vlan ***Vlan***
+channel-group [número] mode passive
 
-SW3(config-if)#switchport trunk allowed vlan ***Vlan/vlan's***
+Extremo LACP que espera a que el otro lado (active) negocie.
 
-SW1(config-if)#interface range f0/***Puertos***
+channel-group [número] mode on
 
-SW1(config-if-range)#channel-group ***NumeroDelChannel*** mode active
+EtherChannel estático, sin negociación.
+
+interface port-channel [número]
+
+Entrar a la interfaz lógica del grupo para configurarla como troncal.
+
+show etherchannel summary
+
+Comprobar que el canal está activo (SU o RU) y los puertos agrupados (P).

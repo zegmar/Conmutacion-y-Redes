@@ -1,3 +1,5 @@
+
+#ConfiguracionPractica5 
 ## Configuración PC0
 - **IP:** 192.168.1.1
 - **Mascara:** 255.255.255.0

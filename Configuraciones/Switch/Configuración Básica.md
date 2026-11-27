@@ -1,127 +1,135 @@
 
-Switch>enable
+ ```ad-example
+title: enable (ena)
+ Entrar al modo privilegiado. Es el primer paso para cualquier configuración.
+ ```
 
-Switch#configure terminal
-
-Enter configuration commands, one per line. End with CNTL/Z.
-
-Switch(config)#hostname ***NombreHost***
-
-SW1(config)#ip domain-name ***NombreDominio***
-
-SW1(config)#crypto key generate rsa
-
-The name for the keys will be: ***NombreHost.NombreDominio***
-
-	Choose the size of the key modulus in the range of 360 to 4096 for your
-	
-	General Purpose Keys. Choosing a key modulus greater than 512 may take
-	
-	a few minutes.
-	
-	  
-	
-	How many bits in the modulus [512]: ***??***
-	
-	% Generating 4046 bit RSA keys, keys will be non-exportable...[OK]
-
-```ad-tip
-title: Recomendación 
-Usar el **Maximo** posible
+```ad-example
+title: configure terminal (conf t)
+Entrar al modo de configuración global, donde se hacen casi todos los cambios.
 ```
 
-SW1(config)#ip ssh version 2
-
-	*Mar 1 1:50:5.299: %SSH-5-ENABLED: SSH 1.99 has been enabled
-
-SW1(config)#username ***Usuario*** secret ***Contraseña***
-
-SW1(config)#line console 0
-
-SW1(config-line)#login local
-
-SW1(config-line)#logging synchronous
-
-SW1(config-line)#exit
-
-SW1(config)#line vty 0 15
-
-SW1(config-line)#login local
-
-SW1(config-line)#logging synchronous
-
-SW1(config-line)#transport input ssh
-
-SW1(config-line)#banner motd # ***Mensaje*** #
-
-```ad-caution
-title: Mensaje
-Se recomienda poner un mensaje de advertencia
-
-No colocar una amenaza o algun mensaje que incite a forzar una entrada. Esto para evitar problemas en situaciones legales
+```ad-example
+title: exit (ex)
+Retroceder un solo nivel (de interfaz a config global, por ejemplo).
 ```
 
-SW1(config)#enable secret ***contraseña***
+```ad-example
+title: end
+Salir de golpe hasta el modo privilegiado desde cualquier submodo.
+```
 
-SW1(config)#interface vlan 1
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
 
-SW1(config-if)#ip address ***IP Mascara***
+```ad-example
+title: do wr
+Guardar la configuración sin salir del modo de configuración (forma corta).
+```
 
-SW1(config-if)#no shutdown
-  
-	SW1(config-if)#
-	
-	%LINK-3-UPDOWN: Interface Vlan1, changed state to down
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
 
-SW1(config-if)#exit
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
 
-SW1(config)#exit
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
 
-	SW1#
-	
-	%SYS-5-CONFIG_I: Configured from console by console
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
+
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
+
+```ad-example
+title: copy running-config startup-config
+Guardar la configuración en la NVRAM para que no se pierda al reiniciar.
+```
 
 
-SW1#copy running-config startup-config
 
-Destination filename [startup-config]?
 
-Building configuration...
+- hostname [nombre]
 
-[OK]
+- Asignar nombre al equipo para identificarlo en la topología.
 
-SW1#configure terminal
+- banner motd #[mensaje]#
 
-Enter configuration commands, one per line.  End with CNTL/Z.
+- Mostrar un mensaje de advertencia a quien se conecte.
 
-SW1(config)#interface range fastethernet0/1-20 
+- enable secret [clave]
 
-SW1(config-if-range)#switchport mode access
+- Proteger el modo privilegiado con una contraseña cifrada.
 
-SW1(config-if-range)#switchport port-security
+- service password-encryption
 
-SW1(config-if-range)#switchport port-security mac-address sticky
+- Cifrar las contraseñas que estén en texto plano en la configuración.
 
-SW1(config-if-range)#switchport port-security maximum 1
+- ip domain-name [dominio]
 
-SW1(config-if-range)#switchport port-security violation shutdown
+- Configurar el dominio. Es requisito para generar las llaves de SSH.
 
-SW1(config-if-range)#exit
+- crypto key generate rsa
 
-SW1(config)#interface range f0/***Puertos que no se están utilizando***
+- Generar las llaves criptográficas RSA que usa SSH.
 
-SW1(config-if-range)#shutdown
-	***Mensaje de puertos apagados***
+- ip ssh version 2
 
-SW1(config-if-range)#exit
+- Activar SSH versión 2, la más segura.
 
-SW1(config)#exit
+- username [usuario] secret [clave]
 
-	SW1#
-	%SYS-5-CONFIG_I: Configured from console by console
+- Crear un usuario local con contraseña cifrada (lo usa login local).
 
-SW1#copy running-config startup-config
+- line console 0
 
-	Destination filename [startup-config]? 
-	Building configuration...
-	[OK]
+- Entrar a la línea de consola (acceso físico por cable).
+
+- line vty 0 15
+
+- Entrar a las 16 líneas de acceso remoto del switch (Telnet/SSH).
+
+- login local
+
+- Exigir usuario y contraseña locales para entrar por esa línea.
+
+- transport input ssh
+
+- Permitir acceso remoto solo por SSH (bloquea Telnet).
+
+- logging synchronous
+
+- Evitar que los mensajes del sistema interrumpan lo que estás escribiendo.
+
+- interface vlan 1
+
+- Entrar a la interfaz virtual de administración del switch.
+
+- ip address [IP] [máscara]
+
+- Asignar una dirección IP a la interfaz (aquí, la IP de gestión del switch).
+
+- ip default-gateway [IP]
+
+- Dar al switch su puerta de enlace para administrarlo desde otra red.
+
+- no shutdown
+
+- Encender la interfaz.
+
+- shutdown
+
+- Apagar la interfaz (por ejemplo, puertos sin usar).

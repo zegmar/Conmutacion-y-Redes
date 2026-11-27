@@ -1,4 +1,16 @@
 
-Viene activo por defecto en dispositivos de cisco, lo que se hace es asignar el root primary
+spanning-tree mode rapid-pvst
 
-SW1(config)#spanning-tree vlan ***vlan/vlan's*** root primary
+Activar Rapid PVST+ para que STP converja rápido.
+
+spanning-tree vlan [lista] root primary
+
+Forzar a este switch a ser el puente raíz (Root Bridge).
+
+spanning-tree vlan [lista] root secondary
+
+Dejar a este switch como respaldo del puente raíz.
+
+show spanning-tree
+
+Ver los roles de los puertos y quién es el Root Bridge.

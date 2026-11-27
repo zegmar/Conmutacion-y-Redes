@@ -1,8 +1,8 @@
-#ConfiguracionPractica4
+#ConfiguracionPractica6
 
 Se aplicaron las [[Configuración Básica | Configuraciones Basicas]]
 
-Se Realizo la [[VLAN || Configuración de Vlan's ]] y de [[Enlace Troncal || Enlaces Troncales]]
+Se Realizo la [[VLAN y Seguridad de puertos|| Configuración de Vlan's ]] y de [[Enlace Troncal || Enlaces Troncales]]
 
 Se asigno  vlan 20 como root prymary para [[Spanning Tree Protocol || STP]]
 
