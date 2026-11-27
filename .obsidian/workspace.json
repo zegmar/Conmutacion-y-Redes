@@ -11,59 +11,45 @@
             "id": "9be516f1add48090",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Topologia basica/SW2.md",
-                "mode": "source",
-                "source": false
+                "file": "Practica 2 Configuración VLANS/Apoyo Visual.canvas",
+                "viewState": {
+                  "x": 120,
+                  "y": -440,
+                  "zoom": -0.5208321633014404
+                }
               },
-              "icon": "lucide-file",
-              "title": "SW2"
+              "icon": "lucide-layout-dashboard",
+              "title": "Apoyo Visual"
             }
           },
           {
-            "id": "7abb08dae73bb770",
+            "id": "ea8176d7c5b30f66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comandos CPT/ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO.md",
+                "file": "Practica 2 Configuración VLANS/SW3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO"
+              "title": "SW3"
             }
           },
           {
-            "id": "11bf05b37cf1caae",
+            "id": "8c427583aed4d587",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comandos CPT/LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT"
-            }
-          },
-          {
-            "id": "0d5fe473c127510e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comandos CPT/CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,28 +217,46 @@
       "start-page:Open start page": false
     }
   },
-  "active": "9be516f1add48090",
+  "active": "ea8176d7c5b30f66",
   "lastOpenFiles": [
-    "Topologia basica/Practica 1 Configuracion Basica.pkt",
-    "Topologia basica/SW1.md",
-    "Topologia basica/Apoyo Visual.canvas",
-    "Topologia basica/SW2.md",
+    "Practica 2 Configuración VLANS/SW2.md",
+    "Practica 2 Configuración VLANS/SW1.md",
+    "Configuraciones/Switch/Enlace Troncal.md",
+    "Practica 2 Configuración VLANS/Practica 2 Configuracion VLANS.pkt~",
+    "Configuraciones/Switch/VLAN.md",
+    "Comandos CPT/DIAGNÓSTICO, VERIFICACIÓN Y MONITOREO.md",
+    "Practica 1 Topologia basica/SW1.md",
+    "Practica 1 Topologia basica/PC's.md",
+    "Configuraciones/Switch/Configuración Básica.md",
+    "Practica 2 Configuración VLANS/SW3.md",
+    "Practica 2 Configuración VLANS/PC's.md",
+    "Practica 1 Topologia basica/SW2.md",
+    "Practica 1 Topologia basica/Practica 1 Configuracion Basica.pkt~",
+    "Practica 2 Configuración VLANS/Practica 2 Configuracion VLANS.pkt",
+    "Practica 2 Configuracion VLAN.pkt",
+    "Practica 1 Topologia basica/Apoyo Visual.canvas",
+    "Practica 2 Configuración VLANS/Apoyo Visual.canvas",
+    "Configuracion Basica.md",
+    "Configuraciones/Switch",
+    "Configuraciones",
+    "Homepage.canvas",
+    "Practicas Resueltas/SW1.md",
+    "Configuración VLANS/SW2.md",
+    "Practicas Resueltas/Apoyo Visual.canvas",
+    "Practicas Resueltas/SW2.md",
     "README.md",
-    "Sin título.canvas",
+    "Practica 2 Configuración VLANS",
+    "Practica 1 Topologia basica/Practica 1 Configuracion Basica.pkt",
     "Practicas Resueltas",
     "Comandos CPT/SEGURIDAD DE PUERTOS (PORT-SECURITY).md",
     "Comandos CPT/SEGURIDAD DE ACCESO Y SSH.md",
     "Comandos CPT/REDES DE ÁREA LOCAL VIRTUALES (VLAN) Y ENLACES TRONCALES.md",
     "Comandos CPT/LISTAS DE CONTROL DE ACCESO (ACLs) Y NAT.md",
     "Comandos CPT/ENRUTAMIENTO E INTER-VLAN ROUTING.md",
-    "Comandos CPT/DIAGNÓSTICO, VERIFICACIÓN Y MONITOREO.md",
     "Comandos CPT/CONMUTACIÓN AVANZADA (SPANNING TREE Y ETHERCHANNEL).md",
     "Comandos CPT/ACCESOS A MODOS Y CONFIGURACIÓN BÁSICA DEL DISPOSITIVO.md",
     "Bienvenido.md",
     "comandos_de_redes_cisco.md",
-    "Comandos CPT",
-    "comandos_de_redes_cisco.txt",
-    "2026-11-26.md",
-    "Topologia basica"
+    "Comandos CPT"
   ]
 }

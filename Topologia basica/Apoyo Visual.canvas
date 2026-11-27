@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"90b1baece5e734f4","x":200,"y":-640,"width":400,"height":400,"color":"5","type":"file","file":"Topologia basica/SW2.md"},
-		{"id":"f8f550c540a833a5","x":-360,"y":-640,"width":400,"height":400,"color":"5","type":"file","file":"Topologia basica/SW1.md"}
-	],
-	"edges":[
-		{"id":"e31da68bdd830f45","fromNode":"90b1baece5e734f4","fromSide":"left","toNode":"f8f550c540a833a5","toSide":"right","toEnd":"none","color":"4"}
-	]
-}
