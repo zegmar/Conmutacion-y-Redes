@@ -72,12 +72,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/SW1.md",
+                "file": "Comandos CPT/DIAGNÓSTICO, VERIFICACIÓN Y MONITOREO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SW1"
+              "title": "DIAGNÓSTICO, VERIFICACIÓN Y MONITOREO"
             }
           },
           {
@@ -259,14 +259,20 @@
       "start-page:Open start page": false
     }
   },
-  "active": "684f5cec81973f0a",
+  "active": "ae244ca03abbcb4c",
   "lastOpenFiles": [
+    "Practica 7 Enrutamiento Base/Practica 7 Enrutamiento Base.pkt",
+    "Practica 7 Enrutamiento Base",
+    "Configuraciones/Router/Router On a Stick.md",
+    "Configuraciones/Switch/EtherChannel.md",
+    "Configuraciones/Switch/VLAN.md",
+    "Configuraciones/Switch/Configuración Básica.md",
+    "Configuraciones/Switch/Enlace Troncal.md",
+    "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/SW1.md",
     "Practica 5 Enrutamiento InterVlan Switch L3 con STP/Practica 5 Enrutamiento InterVLAN SWL3-1 con STP.pkt",
     "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/Practica 6 Enrutamiento InterVLAN SWL3-1 con STP y EtherChannel.pkt",
     "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/SW2.md",
     "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/SW3.md",
-    "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/SW1.md",
-    "Configuraciones/Switch/EtherChannel.md",
     "Pasted image 20261126235758.png",
     "Practica 5 Enrutamiento InterVlan Switch L3 con STP/SW1.md",
     "Practica 6 Enrutamiento InterVlan Switch L3 con STP y EtherChannel/Apoyo Visual.canvas",
@@ -287,10 +293,7 @@
     "Practica 2 Configuración VLANS/SW3.md",
     "Practica 2 Configuración VLANS/SW2.md",
     "Practica 2 Configuración VLANS/SW1.md",
-    "Practica 2 Configuración VLANS/PC's.md",
     "Practica 5 Enrutamiento InterVlan Switch L3 con STP/Apoyo Visual.canvas",
-    "Practica 5 Enrutamiento InterVlan Switch L3 con STP/PC's.md",
-    "Configuraciones/Switch/Spanning Tree Protocol.md",
     "Practica 5 Enrutamiento InterVlan Switch L3 con STP/Practica 4 Enrutamiento InterVLAN SWL3-1 con STP.pkt",
     "Practica 5 Enrutamiento InterVlan Switch L3 con STP",
     "Practica 4 Enrutamiento InterVlan Switch L3/Practica 4 Enrutamiento InterVLAN SWL3-1.pkt",
@@ -299,11 +302,8 @@
     "Homepage.canvas",
     "Practica 3 Enrutamiento InterVlan RouterOnAStick/Apoyo Visual.canvas",
     "Practica 4 Enrutamiento InterVlan Switch L3/Apoyo Visual.canvas",
-    "Practica 4 Enrutamiento InterVlan Switch L3/PC's.md",
     "Practica 4 Enrutamiento InterVlan Switch L3",
     "Practica 2 Configuración VLANS/Apoyo Visual.canvas",
-    "Practica 3 Enrutamiento InterVlan RouterOnAStick/Practica 3 Enrutamiento InterVLAN RouterOnAStick.pkt",
-    "Configuraciones/Router",
     "Practica 1 Topologia basica/Apoyo Visual.canvas",
     "Practicas Resueltas/Apoyo Visual.canvas"
   ]

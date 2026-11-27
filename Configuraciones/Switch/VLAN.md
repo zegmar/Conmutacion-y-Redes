@@ -8,10 +8,6 @@ SW1(config-vlan)#name ***NombreVlan***
 
 SW1(config-vlan)#exit
 
-SW1(config)#vlan ***NumeroX***
-
-SW1(config-vlan)#name Profesores
-
 SW1(config-vlan)#exit
 
 SW1(config)#inter range f0/***Puertos que tendran accesos a la Vlan***
