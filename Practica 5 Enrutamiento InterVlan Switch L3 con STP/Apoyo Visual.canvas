@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"1b4675b55608e4ac","x":-340,"y":-626,"width":400,"height":400,"color":"4","type":"file","file":"Practica 2 Configuración VLANS/SW1.md"},
+		{"id":"3653e7e09d1a7b83","x":140,"y":-626,"width":400,"height":400,"color":"4","type":"file","file":"Practica 2 Configuración VLANS/SW2.md"}
+	],
+	"edges":[
+		{"id":"758deafff8a0d8ba","fromNode":"1b4675b55608e4ac","fromSide":"right","toNode":"3653e7e09d1a7b83","toSide":"left","toEnd":"none"}
+	]
+}
