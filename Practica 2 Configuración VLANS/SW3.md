@@ -2,20 +2,23 @@
 
 Se aplicaron las [[Configuración Básica | Configuraciones Basicas]]
 
+Se Realizo la [[VLAN || Configuración de Vlan's ]] y de [[Enlace Troncal || Enlaces Troncales]]
+
 Datos Utilizados: 
 - **Hostname:** SW3
 - **Nombre del dominio:** redes.local
 - **bits en la key:** 4096
 - **Mensaje:** Solo Personal Autorizado!!!
-- **Usuario:** admin Contraseña: cisco
+- **Usuario:** admin **Contraseña:** cisco
 - **Contraseña:** cisco
-- **IP:** 192.168.1.250
-- **Mascara:** 255.255.255.0
 - **Puertos apagados:** f0/2-5,f0/7-10,f0/12-20, f0/21, f0/24
 - **Puertos Troncales:** f0/21-24
 - **Vlans:**
+	- **Vlan:** 1
+		- **IP:** 192.168.1.250
+		- **Mascara:** 255.255.255.0
 	- **Vlan:** 10
-		- **Nombre:** Estudiantes
+		- **Nombre:** Estudiantes			
 		- **Puertos:** f0/1-5
 	- **Vlan:** 20
 		- **Nombre:** Profesores
